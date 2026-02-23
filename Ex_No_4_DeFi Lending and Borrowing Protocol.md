@@ -26,7 +26,7 @@ If collateral < liquidation threshold, liquidators can repay the borrower's debt
 
 
 Program:
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -76,9 +76,11 @@ contract DeFiLending {
 # Expected Output:
 Users can deposit ETH and earn interest.
 
+<img width="1856" height="967" alt="image" src="https://github.com/user-attachments/assets/28c1de59-7ff5-45d5-87cf-af24206d97ac" />
 
 Users can borrow ETH by providing collateral.
 
+<img width="1856" height="997" alt="image" src="https://github.com/user-attachments/assets/a7030fe3-96c9-4939-87c6-2085bc64f050" />
 
 If collateral < 150% of borrowed amount, liquidators can seize the collateral.
 
